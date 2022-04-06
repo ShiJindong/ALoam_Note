@@ -1,5 +1,5 @@
-# ALoam_Note
-Chinese Note when I learned ALoam
+# ALOAM_Note
+Chinese Note when I learned A-LOAM
 ---
 A-LOAM is an Advanced implementation of LOAM (J. Zhang and S. Singh. LOAM: Lidar Odometry and Mapping in Real-time), which uses Eigen and Ceres Solver to simplify code structure.  Please see: https://github.com/HKUST-Aerial-Robotics/A-LOAM
 
