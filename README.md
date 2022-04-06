@@ -14,8 +14,5 @@ I took the Reference from:
 
 https://www.cnblogs.com/wellp/p/8877990.html   
 https://github.com/cgbcgb/A-LOAM-NOTED  
-https://github.com/laboshinl/loam_velodyne
-https://www.cnblogs.com/wellp/p/8877990.html 
-https://github.com/cgbcgb/A-LOAM-NOTED
      
 Thanks for that.
