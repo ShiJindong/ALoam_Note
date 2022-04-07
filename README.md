@@ -15,4 +15,4 @@ I took the Reference and a part of notes from:
 https://www.cnblogs.com/wellp/p/8877990.html   
 https://github.com/cgbcgb/A-LOAM-NOTED  
      
-Thanks to all above for making a contribution.
+Thanks to all above for making the contributions.
