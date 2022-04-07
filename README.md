@@ -9,7 +9,7 @@ https://github.com/HKUST-Aerial-Robotics/A-LOAM
 https://github.com/cuitaixiang/LOAM_NOTED   
 https://github.com/laboshinl/loam_velodyne
 
-This is Note that I used when I learned A-Loam. 
+This is Note that I wrote down when I learned A-Loam. 
 I took the Reference and a part of notes from: 
 
 https://www.cnblogs.com/wellp/p/8877990.html   
