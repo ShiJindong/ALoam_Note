@@ -297,7 +297,8 @@ void laserCloudHandler(const sensor_msgs::PointCloud2ConstPtr &laserCloudMsg)
 
     // 接下来计算点的曲率
     for (int i = 5; i < cloudSize - 5; i++)     // 每一帧点云前5个和后5个点位于边界，不好计算曲率，应当去除
-    { 
+    {
+        // e.g.   pcl::PointCloud<PointType>::points[i].x
         float diffX = laserCloud->points[i - 5].x + laserCloud->points[i - 4].x +
                       laserCloud->points[i - 3].x + laserCloud->points[i - 2].x +
                       laserCloud->points[i - 1].x - 10 * laserCloud->points[i].x +
@@ -573,7 +574,7 @@ int main(int argc, char **argv)
         }
     }
 
-    // 循环等待回调函数
+    // 循环等待回调函数, 只要有数据传过来就接受
     ros::spin();
 
     return 0;
